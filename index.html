@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>GameHub | Gaming Catalog</title>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header | Navbar -->
+  <header>
+    <nav class="navbar section-content">
+      <a href="#" class="nav-logo">
+        <h2 class="logo-text">
+          <img src="images/controller.png" alt="" class="logo-image" />
+          GameHub
+        </h2>
+      </a>
+      <ul class="nav-menu">
+        <button id="menu-close-button" class="fas fa-times"></button>
+
+        <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Games</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Categories</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Requests</a></li>
+      </ul>
+
+      <button id="menu-open-button" class="fas fa-bars"></button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <div class="section-content">
+        <div class="hero-details">
+          <h2 class="title">GameHub</h2>
+          <h3 class="subtitle">Browse your favorite games and see what's new!</h3>
+          <p class="description">Welcome to the project of Roces and Palegar</p>
+          <div class="buttons">
+            <a href="Sign-up.html" class="button sign-up">Sign up</a>
+            <a href="#" class="button contact-us">Contact us</a>
+          </div>
+        </div>
+        <div class="hero-image-wrapper">
+          <img src="images/controller.png" alt="" class="hero-image" />
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section">
+      <div class="section-content">
+        <div class="about-image-wrapper">
+          <img src="images/people.png" alt="About" class="about-image" />
+        </div>
+        <div class="about-details">
+          <h2 class="section-title">About Us</h2>
+          <p class="text">
+            Luis Palegar and Mark Andrei Roces, two second year college students tasked with creating a website that features the CRUD operations of a database.
+            This website is our final output for the course Database Management. Our professor is Sir John Harvey
+          </p>
+          <div class="social-link-list">
+            <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Genre Section -->
+    <section class="games-section">
+      <h2 class="section-title">Genre</h2>
+      <div class="section-content">
+        <ul class="game-list">
+          <li class="game-genre">
+            <img src="images/action.png" alt="Action" class="game-image" />
+            <h3 class="name">Action</h3>
+          </li>
+          <li class="game-genre">
+            <img src="images/adventure.png" alt="Adventure" class="game-image" />
+            <h3 class="name">Adventure</h3>
+          </li>
+          <li class="game-genre">
+            <img src="images/classic.png" alt="Classics" class="game-image" />
+            <h3 class="name">Classics</h3>
+          </li>
+          <li class="game-genre">
+            <img src="images/FPS.png" alt="FPS" class="game-image" />
+            <h3 class="name">FPS</h3>
+          </li>
+          <li class="game-genre">
+            <img src="images/indie.png" alt="Indie" class="game-image" />
+            <h3 class="name">Indie</h3>
+          </li>
+          <li class="game-genre">
+            <img src="images/RPG.png" alt="RPG" class="game-image" />
+            <h3 class="name">RPG</h3>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Games Slider Section -->
+    <section class="games">
+      <h2 class="section-title">Popular Games</h2>
+      <div class="section-content">
+        <div class="swiper slider-container-swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide game-swiper-slide">
+              <img src="images/overwatch.png" alt="Overwatch II" class="game-img" />
+              <h3 class="name">Overwatch II</h3>
+              <p class="description">A free-to-play team-based shooter featuring fast-paced 5v5 battles with over 40 heroes.</p>
+            </div>
+            <div class="swiper-slide game-swiper-slide">
+              <img src="images/battlefield-6.png" alt="Battlefield 6" class="game-img" />
+              <h3 class="name">Battlefield 6</h3>
+              <p class="description">A modern FPS with large battles and destructible environments.</p>
+            </div>
+            <div class="swiper-slide game-swiper-slide">
+              <img src="images/minecraft.png" alt="Minecraft: Bedrock" class="game-img-minecraft" />
+              <h3 class="name">Minecraft: Bedrock Edition</h3>
+              <p class="description">
+                A block-based sandbox game for exploring, building, and surviving in a vast, procedurally generated world.
+              </p>
+            </div>
+            <div class="swiper-slide game-swiper-slide">
+              <img src="images/(white)sniper-ghost-warrior-contracts-2.png" alt="Sniper Ghost Warrior: Contracts 2" class="game-img-sgwc2" />
+              <h3 class="name">Sniper Ghost Warrior: Contracts 2</h3>
+              <p class="description">
+                A tactical sniper shooter focusing on stealth and long-range sniping with realistic ballistics.
+              </p>
+            </div>
+            <div class="swiper-slide game-swiper-slide">
+              <img src="images/uma-musume.png" alt="Uma Musume: Pretty Derby" class="game-img" />
+              <h3 class="name">Uma Musume: Pretty Derby</h3>
+              <p class="description">
+                A sports simulation where players train and race horse-girl characters inspired by real racehorses.
+              </p>
+            </div>
+          </div>
+
+          <div class="swiper-pagination"></div>
+          <div class="swiper-slide-button swiper-button-prev"></div>
+          <div class="swiper-slide-button swiper-button-next"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
