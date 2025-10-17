@@ -340,6 +340,11 @@ header .navbar{
 
 .games .game-swiper-slide .description{
     line-height: 25px;
+    color: var(--white-color);
+}
+
+h3{
+    color: var(--white-color);
 }
 
 .swiper-slide-button{
@@ -506,4 +511,5 @@ header .navbar{
     }
 
     
+
 }
